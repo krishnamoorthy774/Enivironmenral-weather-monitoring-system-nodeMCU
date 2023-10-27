@@ -14,8 +14,8 @@ DHT dht(DHTPIN, DHTTYPE);
 int minTemp = 24;
 int maxTemp = 27;
 
-const char* ssid = "INTERNET PEDDLER"; //  //Sharaavanthraj's iPhone
-const char* password = "3002aditya";  //  Appu$1912
+const char* ssid = "your wifi SSID"; 
+const char* password = "password"; 
 const char* mqtt_server = "broker.hivemq.com";
 
 const char* topicTemp = "topic/environment/temperature" ;
